@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// Define command line paramiters
+	// Define command line parameters
 	port := flag.String("port", "", "Define default port")
 	dir := flag.String("dir", "", "Define default directory")
 	flag.Parse()
